@@ -1,0 +1,20 @@
+git命令基础
+===
+基础命令
+---
+
+1. git init （指定目录）  初始化Git仓库（生成一个.git的目录文件），没有指定就是当前目录
+2. git add (文件名)(文件名) 用于增加文件纳入暂存区，可以同时添加多个文件，  
+    例子：  
+    git add . **将添加全部文件到暂存区**
+    git add *.c  __将以.c结尾的文件加入暂存区__  
+    git add Example  __将Example文件纳入暂存区__
+3. git commit -m '提交说明' __提交说明Windows系统使用双引号，Linux系统使用单引号__  
+4. git clone （文件位置） （指定名称（可选））**拷贝现有的仓库，没有指定位置的时候默认当前位置**
+5. git config --list **查看配置文件**  
+    > git config -e     针对当前仓库配置
+    > git config -global 针对系统上所有仓库  
+6. git status **检查上次提交后是否有修改**  
+7. git diff **比较文件在暂存区和工作区的差异**  
+
+    
