@@ -65,4 +65,13 @@
     Math.cos(x) 返回角 x（以弧度计）的余弦（介于 -1 与 1 之间的值）  
     Math.min() 和 Math.max() 可用于查找参数列表中的最低或最高值  
     Math.random() 返回介于 0（包括） 与 1（不包括） 之间的随机数  
+
+9. JavaScript 随机  
+    Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数  
+    Math.random() 总是返回小于 1 的数  
+    Math.random() 与 Math.floor() 一起使用用于返回随机整数  
+
+10. JavaScript 逻辑  
+    JavaScript 布尔（逻辑）代表两个值之一：true 或 false   
+    Boolean() 函数来确定表达式（或变量）是否为真  
     
