@@ -30,7 +30,34 @@ Babel 会把 JSX 转译成一个名为 React.createElement() 函数调用
 
 2.元素渲染
 ===
+
 React 元素是创建开销极小的**普通对象**  
+描述了你在屏幕上想看到的内容    
+React 元素是不可变对象。一旦被创建，你就无法更改它的子元素或者属性  
+
+3.组件 & Props 发
+===
+
+函数组件
+---
+```js
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+
+ES6 的 class 组件  
+---
+```js
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
+**注意： 组件名称必须以大写字母开头**  
+
+
 
 
 
