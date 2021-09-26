@@ -1,4 +1,5 @@
-1. JavaScript 数组方法  
+JavaScript 数组方法  
+---
 
 toString() 把数组转换为数组值（逗号分隔）的字符串   
 例子：  
@@ -97,35 +98,50 @@ let a=['a','b','c','d'];
 a.splice(0,1)//a=['b','c','d']
 ```
 
-2. JavaScript 数组排序  
+JavaScript 数组排序   
+---
+
 sort() 方法以字母顺序对数组进行排序  
 例子：  
 ```js
-
+let a=['b','a','c','d'];
+a.sort();//a=['a','b','c','d'];
+//sort() 方法按照字符串顺序对值进行排序,所以在对数值排序时会产生不正确的结果
 ```
 
-    reverse() 方法反转数组中的元素  
-    可以使用 Math.max.apply 来查找数组中的最高值  
-    可以使用 Math.min.apply 来查找数组中的最低值   
+reverse() 方法反转数组中的元素  
+```js
+let a=['a','b','c','d'];
+a.reverse();//a=['d','c','b','a'];
+//通过组合 sort() 和 reverse()，可以按降序对数组进行排序
+```
 
-3. JavaScript 数组迭代方法   
+JavaScript 数组迭代方法   
+---
+
     forEach() 方法为每个数组元素调用一次函数（回调函数）    
     Array.map()  
     filter() 方法创建一个包含通过测试的数组元素的新数组  
     reduce() 方法在每个数组元素上运行函数，以生成（减少它）单个值  
 
-4. JavaScript 日期  
+JavaScript 日期   
+---
+
     默认情况下，JavaScript 将使用浏览器的时区并将日期显示为全文本字符串  
     ate 对象由新的 Date() 构造函数创建  
     JavaScript 从 0 到 11 计算月份  
 
-5. JavaScript 日期格式化  
+JavaScript 日期格式化   
+---
+
     ISO 日期  
     短日期  
     长日期  
     完整日期  
 
-6. JavaScript 获取日期方法   
+JavaScript 获取日期方法   
+---
+
     getDate()  
     getDay()  
     getFullYear()
@@ -136,7 +152,9 @@ sort() 方法以字母顺序对数组进行排序
     getSeconds()  
     getTime()  
 
-7. JavaScript 设置日期方法  
+JavaScript 设置日期方法   
+---
+
     setDate()  
     setFullYear()  
     setHours()  
@@ -146,7 +164,9 @@ sort() 方法以字母顺序对数组进行排序
     setSeconds()  
     setTime()  
 
-8. JavaScript Math 对象  
+JavaScript Math 对象   
+---
+
     Math 对象允许您对数字执行数学任务  
     Math.round(x) 的返回值是 x 四舍五入为最接近的整数  
     Math.pow(x, y) 的返回值是 x 的 y 次幂  
@@ -159,12 +179,15 @@ sort() 方法以字母顺序对数组进行排序
     Math.min() 和 Math.max() 可用于查找参数列表中的最低或最高值  
     Math.random() 返回介于 0（包括） 与 1（不包括） 之间的随机数  
 
-9. JavaScript 随机  
+JavaScript 随机   
+---
+
     Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数  
     Math.random() 总是返回小于 1 的数  
     Math.random() 与 Math.floor() 一起使用用于返回随机整数  
 
-10. JavaScript 逻辑  
+JavaScript 逻辑   
+---
     JavaScript 布尔（逻辑）代表两个值之一：true 或 false   
     Boolean() 函数来确定表达式（或变量）是否为真  
     
