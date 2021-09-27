@@ -119,10 +119,30 @@ a.reverse();//a=['d','c','b','a'];
 JavaScript 数组迭代方法   
 ---
 
-    forEach() 方法为每个数组元素调用一次函数（回调函数）    
-    Array.map()  
-    filter() 方法创建一个包含通过测试的数组元素的新数组  
-    reduce() 方法在每个数组元素上运行函数，以生成（减少它）单个值  
+forEach() 方法为每个数组元素调用一次函数（回调函数）    
+```js
+let a=['a','b','c','d'];
+a.forEach((value, index, array)=>{......})
+```   
+
+Array.map()  
+```js
+let a=['a','b','c','d'];
+a.map((value, index, array)=>{......})
+//map方法的作用就是将原数组按照一定的规则映射成一个新的数组。再将其返回，是返回一个新的数组，而不是将原数组直接改变
+```
+
+filter() 方法创建一个包含通过测试的数组元素的新数组  
+```js
+//用法和参数跟map差不多
+let a=['a','b','c','d'];
+a.filter((value, index, array)=>{......})
+//与map方法不同的是，filter方法的callback函数需要返回弱等于true或false的值。如果为true，则通过，否则，不通过
+```
+
+some()方法是只要数组中的某个值，符合你给定的判断条件就返回true；否则，返回false  
+
+reduce() 方法在每个数组元素上运行函数，以生成（减少它）单个值  
 
 JavaScript 日期   
 ---
