@@ -226,9 +226,31 @@ JavaScript Math 对象
 JavaScript 随机   
 ---
 
-    Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数  
-    Math.random() 总是返回小于 1 的数  
-    Math.random() 与 Math.floor() 一起使用用于返回随机整数  
+Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数  
+```js
+let a=Math.random();//0.27537782864981435
+//Math.random() 总是返回小于 1 的数
+```
+
+Math.random() 与 Math.floor() 一起使用用于返回随机整数   
+```js
+//返回0至9整数
+let a=Math.floor(Math.random()*10)//3
+//返回0至99整数
+let a=Math.floor(Math.random()*100)//39
+//返回1至10整数
+let a=Math.floor(Math.random()*10)+1//7
+//返回1至100整数
+let a=Math.floor(Math.random()*100)+1//56
+```
+
+返回介于 min和 max之间的随机数  
+```js
+//介于 min（包括）和 max（不包括）
+let a= Math.floor(Math.random() * (max - min) ) + min
+//介于 min 和 max（都包括）
+let a= Math.floor(Math.random() * (max - min+1) ) + min
+```
 
 JavaScript 逻辑   
 ---
