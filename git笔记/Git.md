@@ -62,7 +62,11 @@ git add *.jsx//将以.jsx结尾的文件加入暂存区
 git add LearnGitExample//将LearnGitExample文件纳入暂存区 
 ```
 
-
+git clone
+```js
+git clone repo //克隆到当前目录
+git clone repo directory //克隆到指定目录
+```
 Git命令基础
 ===
 基础命令
