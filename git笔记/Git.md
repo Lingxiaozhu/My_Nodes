@@ -67,6 +67,16 @@ git clone
 git clone repo //克隆到当前目录
 git clone repo directory //克隆到指定目录
 ```
+
+Git 分支管理
+```js
+git branch//列出所有本地分支
+git branch branchname//创建分支
+git checkout branchname//切换分支
+git merge branchname//合并分支到当前分支
+git branch -d branchname//删除分支
+```
+
 Git命令基础
 ===
 基础命令
