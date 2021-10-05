@@ -77,6 +77,14 @@ git merge branchname//合并分支到当前分支
 git branch -d branchname//删除分支
 ```
 
+Git 查看提交历史
+```js
+git log //查看历史提交记录
+git log --oneline  //查看历史记录的简洁的版本
+git log --reverse --oneline //查看历史记录,逆向显示所有日志的简洁的版本
+git blame <file> // 以列表形式查看指定文件的历史修改记录
+```
+
 Git命令基础
 ===
 基础命令
