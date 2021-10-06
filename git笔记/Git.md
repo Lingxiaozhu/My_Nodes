@@ -85,6 +85,17 @@ git log --reverse --oneline //查看历史记录,逆向显示所有日志的简�
 git blame <file> // 以列表形式查看指定文件的历史修改记录
 ```
 
+Git 标签
+```js
+git tag -a v1.0 //执行git tag -a 命令时，Git会打开你的编辑器，可以写一句标签注解
+```
+
+Git 远程仓库(Github)
+```js
+git remote//查看当前的远程库
+git remote -v//加上 -v 参数可以看到每个别名的实际链接地址
+```
+
 Git命令基础
 ===
 基础命令
