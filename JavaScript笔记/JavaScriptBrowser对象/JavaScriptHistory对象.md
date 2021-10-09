@@ -18,4 +18,4 @@ History 对象方法
 |---|---|---|   
 |back()|加载 history 列表中的前一个 URL|history.back()  |   
 |forward()|加载 history 列表中的下一个 URL|history.forward()  |   
-|go()|加载 history 列表中的某个具体页面|history.go(number|URL)|   
+|go()|加载 history 列表中的某个具体页面|history.go(number I URL)|   
