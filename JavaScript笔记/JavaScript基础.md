@@ -379,7 +379,7 @@
 
         **MAX_VALUE** 返回 JavaScript 中可能的最大数字  
 
-10. JavaScript 数组  
+17. JavaScript 数组  
 数组用于在单一变量中存储多个值  
 数组是对象  
 数组属性和方法:  
