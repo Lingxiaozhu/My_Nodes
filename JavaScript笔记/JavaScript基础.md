@@ -174,7 +174,7 @@
     let str = "The full name of China is the People's Republic of China.";
     let pos = str.indexOf("China");//17
 ```
-        lastIndexOf() 方法向后进行检索（从尾到头）返回指定文本在字符串中**最后**一次出现的索引   
+        lastIndexOf() 方法向后进行检索（从尾到头）返回指定文本在字符串中最后一次出现的索引   
         
 ```js
     let str = "The full name of China is the People's Republic of China.";
@@ -377,7 +377,7 @@
         parseFloat("years 10");  // 返回 NaN
 ```
 
-        **MAX_VALUE** 返回 JavaScript 中可能的最大数字  
+        `MAX_VALUE`返回 JavaScript 中可能的最大数字  
 
 17. JavaScript 数组  
 数组用于在单一变量中存储多个值  
