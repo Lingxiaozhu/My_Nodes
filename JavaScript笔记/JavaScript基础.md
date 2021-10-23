@@ -377,7 +377,7 @@
         parseFloat("years 10");  // 返回 NaN
 ```
 
-        `MAX_VALUE`返回 JavaScript 中可能的最大数字  
+        MAX_VALUE返回 JavaScript 中可能的最大数字  
 
 17. JavaScript 数组  
 数组用于在单一变量中存储多个值  
