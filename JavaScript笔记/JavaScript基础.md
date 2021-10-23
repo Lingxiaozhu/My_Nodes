@@ -6,7 +6,7 @@
     document.getElementById('myImage').src='/i/eg_bulboff.gif'
     document.getElementById("demo").style.fontSize = "50px"
 
-    在HTML文档中，JavaScript 代码放于 `<script>` 与`</script>` 标签之间   
+    在HTML文档中，JavaScript 代码放于<script>与</script>标签之间   
 
     可以放在`<head>` 或 `<body>`中,type 属性不是必需的
 
@@ -18,10 +18,10 @@
     
 
 2. JavaScript输出4种方式：  
-    `window.alert()` 写入警告框  
-    `document.write()` 写入 HTML 输出 （在文档完全加载后使用将删除所有已有的 HTML ）  
-    `innerHTML` 写入 HTML 元素  
-    `console.log()` 写入浏览器控制台   
+    window.alert() 写入警告框  
+    document.write() 写入 HTML 输出 （在文档完全加载后使用将删除所有已有的 HTML ）  
+    innerHTML 写入 HTML 元素  
+    console.log() 写入浏览器控制台   
 例子：  
 ```js
     <script>
