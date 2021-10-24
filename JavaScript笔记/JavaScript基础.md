@@ -116,7 +116,7 @@
     |`!`|逻辑非|
     
 
-9. JavaScript 数据类型
+9. JavaScript 数据类型  
     string  
     number  
     boolean  
