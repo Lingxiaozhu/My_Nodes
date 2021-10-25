@@ -15,7 +15,7 @@ JSON 语法衍生于 JavaScript 对象标记法语法：
 花括号容纳对象  
 方括号容纳数组  
 
-JSON 名称需要双引号  
+**JSON 名称需要双引号**  
 例子：  
 ```js
 { "name":"World" }
