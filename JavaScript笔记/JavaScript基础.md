@@ -8,9 +8,9 @@
 
     在HTML文档中，JavaScript 代码放于<script>与</script>标签之间   
 
-    可以放在`<head>` 或 `<body>`中,type 属性不是必需的
+    可以放在<head> 或 <body>中,type 属性不是必需的
 
-    当JavaScript放在外部文件时，不能包含 `<script>` 标签
+    当JavaScript放在外部文件时，不能包含<script>标签
 
     JavaScript 文件的文件扩展名是 .js
 ```
