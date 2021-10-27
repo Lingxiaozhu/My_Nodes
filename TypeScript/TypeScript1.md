@@ -87,7 +87,7 @@ Object表示非原始类型（number、string、boolean、symbol、null、undefi
 
 类型断言，在你明确知道一个实例，比现有类型更确切的类型时使用  
 ```js
-    // 方法一,使用简括号
+    // 方法一,使用尖括号
     let example1 : any = 'Ling';
     let example2 : number = (<string>example1).length;
 
