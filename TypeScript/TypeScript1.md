@@ -1,3 +1,5 @@
+# 基础类型
+
 TypeScript是JavaScript的超集，用于补充JavaScript作为弱类型脚本语言的弱点，及增加静态类型标注。  
 
 TypeScript拥有12种基本类型，分别是布尔值（Boolean）、数字（Number）、字符串（String）、数组、元组、枚举、Any、Void、Null、undefined、Never、Object。  
