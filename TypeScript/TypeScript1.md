@@ -15,7 +15,7 @@ TypeScript拥有12种基本类型，分别是布尔值（Boolean）、数字（N
 ```js
     let example1 : number = 2;//十进制
     let example2 : number = 0xffff;//十六进制
-    let example3 : number = 0b1212;//二进制
+    let example3 : number = 0b0101;//二进制
     let example4 : number = 0o5566;//八进制
 ```
 
