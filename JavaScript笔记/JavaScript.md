@@ -1,5 +1,5 @@
-# JaveScript基础1
-1. JavaScript可以改变HTML内容。（可以使用大括号或者小括号）,能够改变 HTML 属性,能够改变 HTML 样式 (CSS)  
+# JaveScript基础
+1. JavaScript可以改变HTML内容,能够改变 HTML 属性,能够改变 HTML 样式 (CSS)  
 例子：  
 ```js
     document.getElementById("demo").innerHTML = "Hello JavaScript"  
