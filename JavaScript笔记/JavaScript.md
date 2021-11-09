@@ -264,7 +264,7 @@
             let a='Ling';
             let b=a.toUpperCase()//LING
             let c=a.toLowerCase()//ling
-```
+```*
 
 
 ```js
