@@ -117,3 +117,6 @@ webpack中的解析规则：
 
 模块路径：  
 模块将在`resolve.modules`中指定所有的目录内搜索  
+
+## 10.依赖图(dependency graph)   
+任何时候，一个文件依赖于另一个文件，webpack就把此视为文件之间有了依赖关系。这使得webpack可以接收非代码资源（non-code-asset），并且可以把它们作为_依赖_提供应用程序  
