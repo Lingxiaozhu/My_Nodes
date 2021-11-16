@@ -133,3 +133,9 @@ runtime包含，在模块交互时，俩姐模块所需的加载和解析逻辑�
 
 Manifest：
 解析和映射应用程序时，会保留所用模块的详细要点，这个集合视为“manifest” 
+
+## 12.构建目标(targets)   
+服务器和浏览器都可以用JavaScript编写，所用webpack提供了多种构建目标，可以在webpack配置中设置  
+
+用法：  
+在webpack配置中设置target的值  
