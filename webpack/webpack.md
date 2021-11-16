@@ -36,3 +36,8 @@ output选项可以控制webpack如何向硬盘写入编译文件。即使有多�
 
 多个入口起点：  
 配置创建了多个单独的“chunk”则应该使用占位符（substitutions）来确保每个文件具有唯一的名称  
+
+## 4.模式(mode)  
+提供`mode`配置选项，告诉webpack使用对应的模式内置优化  
+用法：`mode:development/production`  
+只设置`NODE_ENV`，则不会自动设置`mode`    
