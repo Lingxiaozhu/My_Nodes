@@ -120,3 +120,16 @@ webpack中的解析规则：
 
 ## 10.依赖图(dependency graph)   
 任何时候，一个文件依赖于另一个文件，webpack就把此视为文件之间有了依赖关系。这使得webpack可以接收非代码资源（non-code-asset），并且可以把它们作为_依赖_提供应用程序  
+
+## 11.manifest  
+使用webpack构建的典型应用程序中，有三种主要的代码类型：  
+* 自己的代码  
+* 依赖  
+* webpack的runtime和manifest，管理所有的模块的交互  
+
+Runtime：  
+在浏览器运行时，webpack用来连接模块化的应用程序的所有代码  
+runtime包含，在模块交互时，俩姐模块所需的加载和解析逻辑，包括浏览器中的已加载模块的连接，以及懒加载模块的执行逻辑  
+
+Manifest：
+解析和映射应用程序时，会保留所用模块的详细要点，这个集合视为“manifest” 
