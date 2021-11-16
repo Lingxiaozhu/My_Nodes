@@ -85,3 +85,13 @@ webpack插件是一个具有`apply`属性的JavaScript对象,`apply`属性会被
 
 配置：  
 webpack.config.js中配置  
+
+## 7.配置(configuration)  
+webpack配置是标准的Node.js CommonJS模块：  
+* 通过`require(...)`导入其他文件  
+* 通过`require(...)`使用npm的工具函数  
+* 使用JavaScript控制流表达式  
+* 对常用值使用常量或变量  
+* 编写并执行函数来生成部分配置  
+
+webpack配置可以用很多格式和风格，但为了自己能够理解和维护，建议始终采用同一种用法、格式、和风格  
