@@ -26,3 +26,13 @@ webpack配置中有多种方式定义`entry`属性
 
 对象写法：  
 用法：`entry:{ [ entryChunkName : string ] : string | Array <string> }`   
+
+## 3.输出(output)  
+output选项可以控制webpack如何向硬盘写入编译文件。即使有多个入口起点，但最终都只能指定一个输出配置  
+用法：  
+配置output的最低要求是将它设置成一个对象，包括以下两点    
+* `filename`用于输出文件的文件名  
+* 目标输出目录`path`的绝对路径  
+
+多个入口起点：  
+配置创建了多个单独的“chunk”则应该使用占位符（substitutions）来确保每个文件具有唯一的名称  
