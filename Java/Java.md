@@ -27,3 +27,10 @@ public class Hello{
 > 一个Java源码只能定义一个`public`类型的类，并且类名必须与文件名一致  
 > 用`javac`可以将`.java`的源码编译成`.class`的字节码文件  
 > 使用`java`可以运行一个以编译的Java程序，参数名是类名  
+
+### 1.1.3.Java代码助手
+Java代码助手可以在线输入Java代码，然后远程运行结果页面显示  
+
+### 1.1.4.使用IDE
+IDE是集成开发环境：Integrated Development Environment  
+使用IDE的好处，可以将编写代码、组织项目、编译、运行、调试等放到一个环境中  
