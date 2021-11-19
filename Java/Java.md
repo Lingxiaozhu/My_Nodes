@@ -168,6 +168,9 @@ Java提供Scanner对象来方便输入，读取对应的类型可以使用：`sc
 `while`循环先判断循环条件是否满足，再执行循环语句  
 
 ### 1.3.5do.while循环  
+`do while`循环先执行循环，再判断条件   
+`do while`循环会至少执行一次  
+
 ### 1.3.6for循环  
 ### 1.3.7break和continue  
 
