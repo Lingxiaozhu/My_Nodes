@@ -149,36 +149,36 @@ Java数组的特点：
 数组元素可以是值类型或引用类型，但数组本身是引用类型  
 
 ## 1.3.流程控制 
-### 1.3.1输入和输出  
+### 1.3.1.输入和输出  
 输出：  
 `System.out.println()`向屏幕输出内容，`println`是print line的缩写，表示输出并换行，不换行用`print`  
 输入：  
 Java提供Scanner对象来方便输入，读取对应的类型可以使用：`scanner.nextLine() / nextInt() / nextDouble()`  
 
 
-### 1.3.2if判断  
+### 1.3.2.if判断  
 `if... else`可以做条件判断，else是可选的  
 浮点数判断相等不能直接用==运算符   
 
-### 1.3.3switch多重选择  
+### 1.3.3.switch多重选择  
 `switch`语句可以做多重选择，然后执行匹配的`case`语句后续代码  
 `switch`的计算结果必须是整型、字符串或枚举类型   
 注意千万不要漏写`break`，建议打开`fall-through`警告
-### 1.3.4while循环  
+### 1.3.4.while循环  
 `while`循环先判断循环条件是否满足，再执行循环语句  
 
-### 1.3.5do.while循环  
+### 1.3.5.do.while循环  
 `do while`循环先执行循环，再判断条件   
 `do while`循环会至少执行一次  
 
-### 1.3.6for循环  
+### 1.3.6.for循环  
 `for`循环的用法是  
 ```java
 for (初始条件; 循环检测条件; 循环后更新计数器) {
     // 执行语句
 }
 ```
-### 1.3.7break和continue  
+### 1.3.7.break和continue  
 `break`语句跳出当前循环  
 `ontinue`则是提前结束本次循环，直接继续执行下次循环  
 
