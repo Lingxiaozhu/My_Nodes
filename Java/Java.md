@@ -165,6 +165,8 @@ Java提供Scanner对象来方便输入，读取对应的类型可以使用：`sc
 `switch`的计算结果必须是整型、字符串或枚举类型   
 注意千万不要漏写`break`，建议打开`fall-through`警告
 ### 1.3.4while循环  
+`while`循环先判断循环条件是否满足，再执行循环语句  
+
 ### 1.3.5do.while循环  
 ### 1.3.6for循环  
 ### 1.3.7break和continue  
