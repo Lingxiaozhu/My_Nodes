@@ -253,7 +253,11 @@ Java在方法内部定义的变量是局部变量，局部变量的作用域从�
 final修饰符不是访问权限，它可以修饰class、field和method  
 一个.java文件只能包含一个public类，但可以包含多个非public类  
 
-### 2.1.11.内部类
+### 2.1.11.内部类  
+Java的内部类可分为Inner Class、Anonymous Class和Static Nested Class三种  
+Inner Class和Anonymous Class本质上是相同的，都必须依附于Outer Class的实例，即隐含地持有Outer.this实例，并拥有Outer Class的private访问权限  
+Static Nested Class是独立类，但拥有Outer Class的private访问权限  
+
 ### 2.1.12.classpath和jar
 ### 2.1.13.模块
 
