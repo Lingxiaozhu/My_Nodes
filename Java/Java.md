@@ -259,6 +259,9 @@ Inner Class和Anonymous Class本质上是相同的，都必须依附于Outer Cla
 Static Nested Class是独立类，但拥有Outer Class的private访问权限  
 
 ### 2.1.12.classpath和jar
+JVM通过环境变量classpath决定搜索class的路径和顺序  
+MANIFEST.MF文件可以提供jar包的信息，如Main-Class，这样可以直接运行jar包  
+
 ### 2.1.13.模块
 
 ## 2.2.Java核心类
