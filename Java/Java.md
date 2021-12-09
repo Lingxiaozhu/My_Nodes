@@ -266,7 +266,22 @@ MANIFEST.MF文件可以提供jar包的信息，如Main-Class，这样可以直�
 使用模块可以按需打包JRE  
 
 ## 2.2.Java核心类
+### 2.2.1.字符串和编码
+Java字符串String是不可变对象  
+字符串操作不改变原字符串内容，而是返回新字符串  
+常用的字符串操作：提取子串、查找、替换、大小写转换等  
+Java使用Unicode编码表示String和char   
+转换编码就是将String和byte[]转换，需要指定编码  
 
+### 2.2.2.StringBuilder
+### 2.2.3.StringJoiner
+### 2.2.4.包装类型
+### 2.2.5.JavaBean
+### 2.2.6.枚举类
+### 2.2.7.记录类
+### 2.2.8.BigInteger
+### 2.2.9.BigDecimal
+### 2.2.10.常用工具类
 # 3.异常处理 
 
 # 4.反射
