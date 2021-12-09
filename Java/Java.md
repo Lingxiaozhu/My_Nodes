@@ -263,6 +263,7 @@ JVM通过环境变量classpath决定搜索class的路径和顺序
 MANIFEST.MF文件可以提供jar包的信息，如Main-Class，这样可以直接运行jar包  
 
 ### 2.1.13.模块
+使用模块可以按需打包JRE  
 
 ## 2.2.Java核心类
 
