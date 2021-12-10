@@ -274,6 +274,10 @@ Java使用Unicode编码表示String和char
 转换编码就是将String和byte[]转换，需要指定编码  
 
 ### 2.2.2.StringBuilder
+StringBuilder是可变对象，用来高效拼接字符串  
+StringBuilder可以支持链式操作，实现链式操作的关键是返回实例本身  
+StringBuffer是StringBuilder的线程安全版本，现在很少使用  
+
 ### 2.2.3.StringJoiner
 ### 2.2.4.包装类型
 ### 2.2.5.JavaBean
