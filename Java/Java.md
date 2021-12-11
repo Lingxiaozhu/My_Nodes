@@ -279,6 +279,8 @@ StringBuilder可以支持链式操作，实现链式操作的关键是返回实�
 StringBuffer是StringBuilder的线程安全版本，现在很少使用  
 
 ### 2.2.3.StringJoiner
+用指定分隔符拼接字符串数组时，使用StringJoiner或者String.join()更方便  
+
 ### 2.2.4.包装类型
 ### 2.2.5.JavaBean
 ### 2.2.6.枚举类
