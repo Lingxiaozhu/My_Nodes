@@ -282,6 +282,12 @@ StringBuffer是StringBuilder的线程安全版本，现在很少使用
 用指定分隔符拼接字符串数组时，使用StringJoiner或者String.join()更方便  
 
 ### 2.2.4.包装类型
+Java核心库提供的包装类型可以把基本类型包装为class  
+自动装箱和自动拆箱都是在编译期完成的  
+装箱和拆箱会影响执行效率，且拆箱时可能发生NullPointerException  
+包装类型的比较必须使用equals()  
+整数和浮点数的包装类型都继承自Number  
+
 ### 2.2.5.JavaBean
 ### 2.2.6.枚举类
 ### 2.2.7.记录类
