@@ -289,6 +289,10 @@ Java核心库提供的包装类型可以把基本类型包装为class
 整数和浮点数的包装类型都继承自Number  
 
 ### 2.2.5.JavaBean
+JavaBean是一种符合命名规范的class，它通过getter和setter来定义属性  
+可以利用IDE快速生成getter和setter  
+使用Introspector.getBeanInfo()可以获取属性列表  
+
 ### 2.2.6.枚举类
 ### 2.2.7.记录类
 ### 2.2.8.BigInteger
