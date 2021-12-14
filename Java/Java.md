@@ -294,6 +294,12 @@ JavaBean是一种符合命名规范的class，它通过getter和setter来定义�
 使用Introspector.getBeanInfo()可以获取属性列表  
 
 ### 2.2.6.枚举类
+Java使用enum定义枚举类型，它被编译器编译为final class Xxx extends Enum { … }  
+通过name()获取常量定义的字符串，注意不要使用toString()  
+通过ordinal()返回常量定义的顺序（无实质意义）  
+可以为enum编写构造方法、字段和方法  
+enum的构造方法要声明为private，字段强烈建议声明为final  
+
 ### 2.2.7.记录类
 ### 2.2.8.BigInteger
 ### 2.2.9.BigDecimal
