@@ -307,6 +307,10 @@ Java 14开始，提供新的record关键字，可以非常方便地定义Data Cl
 可以定义静态方法  
 
 ### 2.2.8.BigInteger
+BigInteger用于表示任意大小的整数  
+BigInteger是不变类，并且继承自Number  
+将BigInteger转换成基本类型时可使用longValueExact()等方法保证结果准确
+
 ### 2.2.9.BigDecimal
 ### 2.2.10.常用工具类
 # 3.异常处理 
