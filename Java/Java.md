@@ -312,6 +312,9 @@ BigInteger是不变类，并且继承自Number
 将BigInteger转换成基本类型时可使用longValueExact()等方法保证结果准确
 
 ### 2.2.9.BigDecimal
+BigDecimal用于表示精确的小数  
+BigDecimal用于表示精确的小数，常用于财务计算  
+
 ### 2.2.10.常用工具类
 # 3.异常处理 
 
