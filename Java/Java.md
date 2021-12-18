@@ -315,8 +315,10 @@ BigInteger是不变类，并且继承自Number
 BigDecimal用于表示精确的小数  
 BigDecimal用于表示精确的小数，常用于财务计算  
 
-### 2.2.10.常用工具类
 # 3.异常处理 
+## Java异常
+Java使用异常来表示错误，并通过try ... catch捕获异常  
+Java的异常是class，并且从Throwable继承
 
 # 4.反射
 
