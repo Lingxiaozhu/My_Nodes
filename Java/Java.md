@@ -316,11 +316,33 @@ BigDecimal用于表示精确的小数
 BigDecimal用于表示精确的小数，常用于财务计算  
 
 # 3.异常处理 
-## Java异常
+## 3.1.Java异常
 Java使用异常来表示错误，并通过try ... catch捕获异常  
 Java的异常是class，并且从Throwable继承
 
+## 3.2.捕获异常  
+多个catch语句的匹配顺序非常重要，子类必须放在前面  
+多个catch语句的匹配顺序非常重要，子类必须放在前面  
+一个catch语句也可以匹配多个非继承关系的异常  
+
+## 3.3.抛出异常  
+
+## 3.4.自定义异常  
+
+## 3.5.NullPointerException   
+
+## 3.6.使用断言  
+
+## 3.7.使用JDK Logging  
+
+## 3.8. 使用Commons Logging  
+
+## 3.9. 使用Log4j
+
+## 3.10.使用SLF4J和Logback
+
 # 4.反射
+
 
 # 5.注解  
 
