@@ -329,8 +329,8 @@ Java的异常是class，并且从Throwable继承
 调用printStackTrace()可以打印异常的传播栈，对于调试非常有用  
 捕获异常并再次抛出新的异常时，应该持有原始异常信息  
 
-
 ## 3.4.自定义异常  
+推荐从RuntimeException派生“根异常”，再派生出业务异常
 
 ## 3.5.NullPointerException   
 
