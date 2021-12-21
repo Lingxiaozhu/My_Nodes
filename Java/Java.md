@@ -333,6 +333,8 @@ Java的异常是class，并且从Throwable继承
 推荐从RuntimeException派生“根异常”，再派生出业务异常
 
 ## 3.5.NullPointerException   
+NullPointerException是Java代码常见的逻辑错误，应当早暴露，早修复  
+NullPointerException是Java代码常见的逻辑错误，应当早暴露，早修复
 
 ## 3.6.使用断言  
 
