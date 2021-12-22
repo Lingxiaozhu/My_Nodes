@@ -340,6 +340,8 @@ NullPointerException是Java代码常见的逻辑错误，应当早暴露，早�
 断言是一种调试方式，断言失败会抛出AssertionError，只能在开发和测试阶段启用断言   
 
 ## 3.7.使用JDK Logging  
+日志是为了替代System.out.println()，可以定义格式，重定向到文件等  
+Java标准库提供了java.util.logging来实现日志功能
 
 ## 3.8. 使用Commons Logging  
 
