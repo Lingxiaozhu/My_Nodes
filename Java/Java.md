@@ -344,6 +344,9 @@ NullPointerException是Java代码常见的逻辑错误，应当早暴露，早�
 Java标准库提供了java.util.logging来实现日志功能
 
 ## 3.8. 使用Commons Logging  
+Commons Logging是使用最广泛的日志模块  
+Commons Logging的API非常简单  
+Commons Logging可以自动检测并使用其他日志模块
 
 ## 3.9. 使用Log4j
 
