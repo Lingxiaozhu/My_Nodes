@@ -349,6 +349,9 @@ Commons Logging的API非常简单
 Commons Logging可以自动检测并使用其他日志模块
 
 ## 3.9. 使用Log4j
+通过Commons Logging实现日志，不需要修改代码即可使用Log4j  
+使用Log4j只需要把log4j2.xml和相关jar放入classpath  
+如果要更换Log4j，只需要移除log4j2.xml和相关jar  
 
 ## 3.10.使用SLF4J和Logback
 
