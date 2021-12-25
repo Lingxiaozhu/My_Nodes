@@ -354,6 +354,9 @@ Commons Logging可以自动检测并使用其他日志模块
 如果要更换Log4j，只需要移除log4j2.xml和相关jar  
 
 ## 3.10.使用SLF4J和Logback
+SLF4J和Logback可以取代Commons Logging和Log4j  
+始终使用SLF4J的接口写入日志，使用Logback只需要配置，不需要修改代码  
+
 
 # 4.反射
 
