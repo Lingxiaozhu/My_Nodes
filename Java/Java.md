@@ -357,9 +357,18 @@ Commons Logging可以自动检测并使用其他日志模块
 SLF4J和Logback可以取代Commons Logging和Log4j  
 始终使用SLF4J的接口写入日志，使用Logback只需要配置，不需要修改代码  
 
-
 # 4.反射
+## 4.1.Class类  
+JVM为每个加载的class及interface创建了对应的Class实例来保存class及interface的所有信息  
+获取一个class对应的Class实例后，就可以获取该class的所有信息  
+通过Class实例获取class信息的方法称为反射（Reflection）  
+JVM总是动态加载class，可以在运行期根据条件来控制加载class  
 
+## 4.2.访问字段  
+## 4.3.调用方法  
+## 4.4.调用构造方法  
+## 4.5.获取继承关系  
+## 4.6.动态代理  
 
 # 5.注解  
 
