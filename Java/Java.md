@@ -365,6 +365,12 @@ JVM为每个加载的class及interface创建了对应的Class实例来保存clas
 JVM总是动态加载class，可以在运行期根据条件来控制加载class  
 
 ## 4.2.访问字段  
+Java的反射API提供的Field类封装了字段的所有信息  
+通过Class实例的方法可以获取Field实例：getField()，getFields()，getDeclaredField()，getDeclaredFields()  
+通过Field实例可以获取字段信息：getName()，getType()，getModifiers()  
+通过Field实例可以读取或设置某个对象的字段，如果存在访问限制，要首先调用setAccessible(true)来访问非public字段  
+通过反射读写字段是一种非常规方法，它会破坏对象的封装  
+
 ## 4.3.调用方法  
 ## 4.4.调用构造方法  
 ## 4.5.获取继承关系  
