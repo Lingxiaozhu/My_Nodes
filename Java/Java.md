@@ -372,6 +372,11 @@ Java的反射API提供的Field类封装了字段的所有信息
 通过反射读写字段是一种非常规方法，它会破坏对象的封装  
 
 ## 4.3.调用方法  
+通过Class实例的方法可以获取Method实例：getMethod()，getMethods()，getDeclaredMethod()，getDeclaredMethods()  
+通过Method实例可以获取方法信息：getName()，getReturnType()，getParameterTypes()，getModifiers()  
+通过Method实例可以调用某个对象的方法：Object invoke(Object instance, Object... parameters)  
+通过设置setAccessible(true)来访问非public方法  
+
 ## 4.4.调用构造方法  
 ## 4.5.获取继承关系  
 ## 4.6.动态代理  
