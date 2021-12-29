@@ -378,6 +378,11 @@ Java的反射API提供的Field类封装了字段的所有信息
 通过设置setAccessible(true)来访问非public方法  
 
 ## 4.4.调用构造方法  
+Constructor对象封装了构造方法的所有信息  
+通过Class实例的方法可以获取Constructor实例：getConstructor()，getConstructors()，getDeclaredConstructor()，getDeclaredConstructors()  
+通过Constructor实例可以创建一个实例对象：newInstance(Object... parameters)； 通过设置setAccessible(true)来访问非public构造方法  
+
+
 ## 4.5.获取继承关系  
 ## 4.6.动态代理  
 
