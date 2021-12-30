@@ -386,7 +386,10 @@ Constructor对象封装了构造方法的所有信息
 ## 4.5.获取继承关系  
 通过Class对象可以获取继承关系：Class getSuperclass()：获取父类类型,Class[] getInterfaces()：获取当前类实现的所有接口    
 通过Class对象的isAssignableFrom()方法可以判断一个向上转型是否可以实现
+
 ## 4.6.动态代理  
+Java标准库提供了动态代理功能，允许在运行期动态创建一个接口的实例  
+动态代理是通过Proxy创建代理对象，然后将接口方法“代理”给InvocationHandler完成的  
 
 # 5.注解  
 
