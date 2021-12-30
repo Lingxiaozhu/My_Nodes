@@ -384,6 +384,8 @@ Constructor对象封装了构造方法的所有信息
 
 
 ## 4.5.获取继承关系  
+通过Class对象可以获取继承关系：Class getSuperclass()：获取父类类型,Class[] getInterfaces()：获取当前类实现的所有接口    
+通过Class对象的isAssignableFrom()方法可以判断一个向上转型是否可以实现
 ## 4.6.动态代理  
 
 # 5.注解  
