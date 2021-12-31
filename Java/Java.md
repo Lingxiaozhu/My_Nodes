@@ -392,6 +392,13 @@ Java标准库提供了动态代理功能，允许在运行期动态创建一个�
 动态代理是通过Proxy创建代理对象，然后将接口方法“代理”给InvocationHandler完成的  
 
 # 5.注解  
+注解（Annotation）是Java语言用于工具处理的标注  
+如果参数名称是value，且只有一个参数，那么可以省略参数名称   
+Java使用@interface定义注解  
+可定义多个参数和默认值，核心参数使用value名称  
+可定义多个参数和默认值，核心参数使用value名称  
+可以在运行期通过反射读取RUNTIME类型的注解，注意千万不要漏写@Retention(RetentionPolicy.RUNTIME)，否则运行期无法读取到该注解 
+
 
 # 6.泛型  
 
