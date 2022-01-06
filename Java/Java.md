@@ -430,6 +430,23 @@ extends和super通配符要遵循PECS原则
 部分反射API是泛型  
 
 # 7.集合  
+## 7.1.Java集合简介   
+ava的集合类定义在java.util包中，支持泛型，主要提供了3种集合类，包括List，Set和Map。Java集合使用统一的Iterator遍历，尽量不要使用遗留接口  
+
+## 7.2.使用List  
+## 7.3.编写equals方法  
+## 7.4.使用Map  
+## 7.5.编写equals和hashCode  
+## 7.6.使用EnumMap  
+## 7.7.使用TreeMap  
+## 7.8.使用Properties  
+## 7.9.使用Set  
+## 7.10.使用Queue  
+## 7.11.使用PriorityQueue  
+## 7.12.使用Deque  
+## 7.13.使用Stack  
+## 7.14.使用Iterator  
+## 7.15.使用Collections
 
 # 8. IO
 
