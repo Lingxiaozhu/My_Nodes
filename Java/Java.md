@@ -431,9 +431,12 @@ extends和super通配符要遵循PECS原则
 
 # 7.集合  
 ## 7.1.Java集合简介   
-ava的集合类定义在java.util包中，支持泛型，主要提供了3种集合类，包括List，Set和Map。Java集合使用统一的Iterator遍历，尽量不要使用遗留接口  
+Java的集合类定义在java.util包中，支持泛型，主要提供了3种集合类，包括List，Set和Map。Java集合使用统一的Iterator遍历，尽量不要使用遗留接口  
 
 ## 7.2.使用List  
+List是按索引顺序访问的长度可变的有序表，优先使用ArrayList而不是LinkedList  
+List可以和Array相互转换  
+
 ## 7.3.编写equals方法  
 ## 7.4.使用Map  
 ## 7.5.编写equals和hashCode  
