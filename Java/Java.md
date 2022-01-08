@@ -438,6 +438,8 @@ List是按索引顺序访问的长度可变的有序表，优先使用ArrayList�
 List可以和Array相互转换  
 
 ## 7.3.编写equals方法  
+在List中查找元素时，List的实现类通过元素的equals()方法比较两个元素是否相等，因此，放入的元素必须正确覆写equals()方法，Java标准库提供的String、Integer等已经覆写了equals()方法  
+
 ## 7.4.使用Map  
 ## 7.5.编写equals和hashCode  
 ## 7.6.使用EnumMap  
