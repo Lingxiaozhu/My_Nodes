@@ -441,6 +441,10 @@ List可以和Array相互转换
 在List中查找元素时，List的实现类通过元素的equals()方法比较两个元素是否相等，因此，放入的元素必须正确覆写equals()方法，Java标准库提供的String、Integer等已经覆写了equals()方法  
 
 ## 7.4.使用Map  
+Map是一种映射表，可以通过key快速查找value  
+可以通过for each遍历keySet()，也可以通过for each遍历entrySet()，直接获取key-value  
+最常用的一种Map实现是HashMap  
+
 ## 7.5.编写equals和hashCode  
 ## 7.6.使用EnumMap  
 ## 7.7.使用TreeMap  
