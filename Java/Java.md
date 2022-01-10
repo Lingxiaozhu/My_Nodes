@@ -446,6 +446,8 @@ Map是一种映射表，可以通过key快速查找value
 最常用的一种Map实现是HashMap  
 
 ## 7.5.编写equals和hashCode  
+要正确使用HashMap，作为key的类必须正确覆写equals()和hashCode()方法  
+
 ## 7.6.使用EnumMap  
 ## 7.7.使用TreeMap  
 ## 7.8.使用Properties  
