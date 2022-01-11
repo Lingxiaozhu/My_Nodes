@@ -449,6 +449,9 @@ Map是一种映射表，可以通过key快速查找value
 要正确使用HashMap，作为key的类必须正确覆写equals()和hashCode()方法  
 
 ## 7.6.使用EnumMap  
+Map的key是enum类型，使用EnumMap，既保证速度，也不浪费空间  
+使用EnumMap的时候，应持有Map接口  
+
 ## 7.7.使用TreeMap  
 ## 7.8.使用Properties  
 ## 7.9.使用Set  
