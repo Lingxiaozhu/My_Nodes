@@ -453,6 +453,8 @@ Map的key是enum类型，使用EnumMap，既保证速度，也不浪费空间
 使用EnumMap的时候，应持有Map接口  
 
 ## 7.7.使用TreeMap  
+SortedMap的Key必须实现Comparable接口，或者传入Comparator  
+
 ## 7.8.使用Properties  
 ## 7.9.使用Set  
 ## 7.10.使用Queue  
