@@ -456,6 +456,10 @@ Map的key是enum类型，使用EnumMap，既保证速度，也不浪费空间
 SortedMap的Key必须实现Comparable接口，或者传入Comparator  
 
 ## 7.8.使用Properties  
+Java集合库提供的Properties用于读写配置文件.properties。.properties文件可以使用UTF-8编码  
+读写Properties时，注意仅使用getProperty()和setProperty()方法，不要调用继承而来的get()和put()等方法  
+
+
 ## 7.9.使用Set  
 ## 7.10.使用Queue  
 ## 7.11.使用PriorityQueue  
