@@ -461,6 +461,9 @@ Java集合库提供的Properties用于读写配置文件.properties。.propertie
 
 
 ## 7.9.使用Set  
+Set用于存储不重复的元素集合  
+利用Set可以去除重复元素  
+
 ## 7.10.使用Queue  
 ## 7.11.使用PriorityQueue  
 ## 7.12.使用Deque  
