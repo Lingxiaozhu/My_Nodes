@@ -469,6 +469,8 @@ Set用于存储不重复的元素集合
 要避免把null添加到队列  
 
 ## 7.11.使用PriorityQueue  
+PriorityQueue实现了一个优先队列：从队首获取元素时，总是获取优先级最高的元素  
+
 ## 7.12.使用Deque  
 ## 7.13.使用Stack  
 ## 7.14.使用Iterator  
