@@ -465,6 +465,9 @@ Set用于存储不重复的元素集合
 利用Set可以去除重复元素  
 
 ## 7.10.使用Queue  
+队列Queue实现了一个先进先出（FIFO）的数据结构  
+要避免把null添加到队列  
+
 ## 7.11.使用PriorityQueue  
 ## 7.12.使用Deque  
 ## 7.13.使用Stack  
