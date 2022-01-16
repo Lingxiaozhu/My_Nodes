@@ -472,7 +472,11 @@ Set用于存储不重复的元素集合
 PriorityQueue实现了一个优先队列：从队首获取元素时，总是获取优先级最高的元素  
 
 ## 7.12.使用Deque  
+Deque实现了一个双端队列  
+
 ## 7.13.使用Stack  
+栈（Stack）是一种后进先出（LIFO）的数据结构  
+
 ## 7.14.使用Iterator  
 ## 7.15.使用Collections
 
