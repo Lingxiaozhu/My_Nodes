@@ -478,6 +478,8 @@ Deque实现了一个双端队列
 栈（Stack）是一种后进先出（LIFO）的数据结构  
 
 ## 7.14.使用Iterator  
+Iterator是一种抽象的数据访问模型  
+
 ## 7.15.使用Collections
 
 # 8. IO
