@@ -492,6 +492,8 @@ Collections类提供了一组工具方法来方便使用集合类：
 Java标准库的java.io.File对象表示一个文件或者目录  
 
 ## 8.2. InputStream   
+Java标准库的java.io.InputStream定义了所有输入流的超类
+
 ## 8.3. OutputStream 
 ## 8.4. Filter模式   
 ## 8.5. 操作Zip 
