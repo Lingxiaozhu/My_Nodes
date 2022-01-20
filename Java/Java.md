@@ -498,6 +498,8 @@ Java标准库的java.io.InputStream定义了所有输入流的超类
 Java标准库的java.io.OutputStream定义了所有输出流的超类
 
 ## 8.4. Filter模式   
+Java的IO标准库使用Filter模式为InputStream和OutputStream增加功能
+
 ## 8.5. 操作Zip 
 ## 8.6. 读取classpath资源   
 ## 8.7. 序列化   
