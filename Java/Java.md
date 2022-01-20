@@ -495,6 +495,8 @@ Java标准库的java.io.File对象表示一个文件或者目录
 Java标准库的java.io.InputStream定义了所有输入流的超类
 
 ## 8.3. OutputStream 
+Java标准库的java.io.OutputStream定义了所有输出流的超类
+
 ## 8.4. Filter模式   
 ## 8.5. 操作Zip 
 ## 8.6. 读取classpath资源   
