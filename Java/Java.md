@@ -501,6 +501,9 @@ Java标准库的java.io.OutputStream定义了所有输出流的超类
 Java的IO标准库使用Filter模式为InputStream和OutputStream增加功能
 
 ## 8.5. 操作Zip 
+ZipInputStream可以读取zip格式的流，ZipOutputStream可以把多份数据写入zip包  
+配合FileInputStream和FileOutputStream就可以读写zip文件  
+
 ## 8.6. 读取classpath资源   
 ## 8.7. 序列化   
 ## 8.8. Reader   
