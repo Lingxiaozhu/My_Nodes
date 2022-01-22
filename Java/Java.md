@@ -505,6 +505,9 @@ ZipInputStream可以读取zip格式的流，ZipOutputStream可以把多份数据
 配合FileInputStream和FileOutputStream就可以读写zip文件  
 
 ## 8.6. 读取classpath资源   
+资源存储在classpath中可以避免文件路径依赖  
+
+
 ## 8.7. 序列化   
 ## 8.8. Reader   
 ## 8.9. Writer 
