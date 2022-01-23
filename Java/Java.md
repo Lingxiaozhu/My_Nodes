@@ -507,10 +507,13 @@ ZipInputStream可以读取zip格式的流，ZipOutputStream可以把多份数据
 ## 8.6. 读取classpath资源   
 资源存储在classpath中可以避免文件路径依赖  
 
-
 ## 8.7. 序列化   
+可序列化的Java对象必须实现java.io.Serializable接口，类似Serializable这样的空接口被称为“标记接口”（Marker Interface）  
+
 ## 8.8. Reader   
+
 ## 8.9. Writer 
+
 ## 8.10. PrintStream和PrintWriter   
 ## 8.11. 使用Files   
 
