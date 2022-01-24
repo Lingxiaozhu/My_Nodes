@@ -511,6 +511,7 @@ ZipInputStream可以读取zip格式的流，ZipOutputStream可以把多份数据
 可序列化的Java对象必须实现java.io.Serializable接口，类似Serializable这样的空接口被称为“标记接口”（Marker Interface）  
 
 ## 8.8. Reader   
+Reader定义了所有字符输入流的超类   
 
 ## 8.9. Writer 
 
