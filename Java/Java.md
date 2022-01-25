@@ -514,6 +514,9 @@ ZipInputStream可以读取zip格式的流，ZipOutputStream可以把多份数据
 Reader定义了所有字符输入流的超类   
 
 ## 8.9. Writer 
+Writer定义了所有字符输出流的超类  
+使用try (resource)保证Writer正确关闭   
+Writer是基于OutputStream构造的，可以通过OutputStreamWriter将OutputStream转换为Writer，转换时需要指定编码  
 
 ## 8.10. PrintStream和PrintWriter   
 ## 8.11. 使用Files   
