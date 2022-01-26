@@ -519,6 +519,9 @@ Writer定义了所有字符输出流的超类
 Writer是基于OutputStream构造的，可以通过OutputStreamWriter将OutputStream转换为Writer，转换时需要指定编码  
 
 ## 8.10. PrintStream和PrintWriter   
+PrintStream是一种能接收各种数据类型的输出，打印数据时比较方便  
+PrintWriter是基于Writer的输出  
+
 ## 8.11. 使用Files   
 
 
