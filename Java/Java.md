@@ -529,6 +529,9 @@ PrintWriter是基于Writer的输出
 ## 9.1.基本概念
 计算机通过Locale来针对当地用户习惯格式化日期、时间、数字、货币等  
 
+## 9.2.Date和Calendar
+Java有两套日期和时间的API，分别位于java.util和java.time包中  
+
 # 10.单元测试  
 
 # 11.正则表达式  
