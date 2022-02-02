@@ -542,6 +542,8 @@ ZonedDateTime是带时区的日期和时间，可用于时区转换
 ## 9.5.DateTimeFormatter
 对ZonedDateTime或LocalDateTime进行格式化，需要使用DateTimeFormatter类  
 
+## 9.6.Instant
+Instant表示高精度时间戳，它可以和ZonedDateTime以及long互相转换  
 
 # 10.单元测试  
 
