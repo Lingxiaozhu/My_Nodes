@@ -546,8 +546,11 @@ ZonedDateTime是带时区的日期和时间，可用于时区转换
 Instant表示高精度时间戳，它可以和ZonedDateTime以及long互相转换  
 
 # 10.单元测试  
-## 10.1编写JUnit测试
+## 10.1.编写JUnit测试
 JUnit是一个单元测试框架  
+
+## 10.2.Fixture
+Fixture是指针对每个@Test方法，编写@BeforeEach方法用于初始化测试资源，编写@AfterEach用于清理测试资源  
 
 
 # 11.正则表达式  
