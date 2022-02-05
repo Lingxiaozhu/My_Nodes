@@ -552,6 +552,9 @@ JUnit是一个单元测试框架
 ## 10.2.Fixture
 Fixture是指针对每个@Test方法，编写@BeforeEach方法用于初始化测试资源，编写@AfterEach用于清理测试资源  
 
+## 10.3.异常测试
+测试异常使用assertThrows()，期待捕获到指定类型的异常  
+
 
 # 11.正则表达式  
 
