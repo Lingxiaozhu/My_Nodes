@@ -606,6 +606,9 @@ Java用Thread对象表示一个线程，通过调用start()启动一个新线程
 Java线程对象Thread的状态包括：New、Runnable、Blocked、Waiting、Timed Waiting和Terminated  
 通过对另一个线程对象调用join()方法可以等待其执行结束  
 
+## 13.4.中断线程
+对目标线程调用interrupt()方法可以请求中断一个线程，目标线程通过检测isInterrupted()标志获取自身是否已中断。如果目标线程处于等待状态，该线程会捕获到InterruptedException  
+目标线程检测到isInterrupted()为true或者捕获了InterruptedException都应该立刻结束自身线程  
 
 # 14.Maven基础
 
