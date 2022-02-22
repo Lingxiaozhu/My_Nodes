@@ -610,6 +610,9 @@ Java线程对象Thread的状态包括：New、Runnable、Blocked、Waiting、Tim
 对目标线程调用interrupt()方法可以请求中断一个线程，目标线程通过检测isInterrupted()标志获取自身是否已中断。如果目标线程处于等待状态，该线程会捕获到InterruptedException  
 目标线程检测到isInterrupted()为true或者捕获了InterruptedException都应该立刻结束自身线程  
 
+## 13.5.守护线程
+守护线程是为其他线程服务的线程  
+
 # 14.Maven基础
 
 # 15.网络编程
