@@ -622,6 +622,9 @@ Java线程对象Thread的状态包括：New、Runnable、Blocked、Waiting、Tim
 ## 13.8.死锁  
 死锁产生的条件是多线程各自持有不同的锁，并互相试图获取对方已持有的锁，导致无限等待  
 
+## 13.9.使用wait和notify  
+wait和notify用于多线程协调运行  
+
 # 14.Maven基础
 
 # 15.网络编程
