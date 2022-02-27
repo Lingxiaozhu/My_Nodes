@@ -625,6 +625,10 @@ Java线程对象Thread的状态包括：New、Runnable、Blocked、Waiting、Tim
 ## 13.9.使用wait和notify  
 wait和notify用于多线程协调运行  
 
+## 13.10.使用ReentrantLock  
+ReentrantLock可以替代synchronized进行同步  
+ReentrantLock获取锁更安全  
+
 # 14.Maven基础
 
 # 15.网络编程
