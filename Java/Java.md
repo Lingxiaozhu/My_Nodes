@@ -629,6 +629,10 @@ wait和notify用于多线程协调运行
 ReentrantLock可以替代synchronized进行同步  
 ReentrantLock获取锁更安全  
 
+## 13.11.使用Condition
+Condition可以替代wait和notify  
+Condition对象必须从Lock对象获取  
+
 # 14.Maven基础
 
 # 15.网络编程
