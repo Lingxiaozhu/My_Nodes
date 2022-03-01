@@ -633,6 +633,9 @@ ReentrantLock获取锁更安全
 Condition可以替代wait和notify  
 Condition对象必须从Lock对象获取  
 
+## 13.12.使用ReadWriteLock  
+ReadWriteLock可以提高读取效率  
+
 # 14.Maven基础
 
 # 15.网络编程
