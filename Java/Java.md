@@ -636,6 +636,9 @@ Condition对象必须从Lock对象获取
 ## 13.12.使用ReadWriteLock  
 ReadWriteLock可以提高读取效率  
 
+## 13.13.使用StampedLock
+StampedLock提供了乐观读锁，可取代ReadWriteLock以进一步提升并发性能  
+
 # 14.Maven基础
 
 # 15.网络编程
