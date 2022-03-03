@@ -639,6 +639,9 @@ ReadWriteLock可以提高读取效率
 ## 13.13.使用StampedLock
 StampedLock提供了乐观读锁，可取代ReadWriteLock以进一步提升并发性能  
 
+## 13.14.使用Concurrent集合
+java.util.concurrent包提供的线程安全的并发集合可以大大简化多线程编程  
+
 # 14.Maven基础
 
 # 15.网络编程
